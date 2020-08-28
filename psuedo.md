@@ -1,10 +1,10 @@
 ## Recreational Weather Planner 
 
-UI 
--Display of Utah 
+# UI 
+    -Display of Utah 
 
 
--Display has sections 
+    -Display has sections 
     -What are these sections? 
         - Moab 
         - Zion 
@@ -17,7 +17,7 @@ UI
         
 
 
-- that are interactive (clickable) by the user
+    - that are interactive (clickable) by the user
     - once clicked, a modal will display on the screen over the initial UI
     - What type of modal? - Bulma Card? others?
         - research modals
@@ -25,7 +25,7 @@ UI
             - how does it look?
 
     
-Modals 
+# Modals 
     - how do we put content in a modal
     - resposivness?
         -how does it look with lots of content?
@@ -33,7 +33,7 @@ Modals
 
 
 
-Modal Content 
+# Modal Content 
     - weather (current, 5 day) 
     - will conditions be ideal for certain recreational activities? 
     - tips for the visiting the area 

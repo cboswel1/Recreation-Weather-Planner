@@ -6,3 +6,10 @@ div.columns {
     margin-top: 100px; 
     width: 1050px; 
   } 
+
+  #map {
+    width: 800px; 
+    height: 400px;
+  }
+
+  

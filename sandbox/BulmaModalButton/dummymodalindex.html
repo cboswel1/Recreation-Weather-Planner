@@ -1,171 +1,126 @@
 <!DOCTYPE html>
- 
+
 <html>
- 
-<head>
- 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
- 
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
+    />
 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css"
+    />
 
- 
-<link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
- 
+    <link rel="stylesheet" href="dummystyle.css" />
 
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<link rel="stylesheet" href="dummystyle.css">
- 
-</head>
- 
-<body>
- 
-<!-- First Button-->
-<span class="button is-danger is-large modal-button" data-target="launchModal" id="launchModal"> Demo</span>
- 
-<div id="modal-fadeInScale-fs" class="modal modal-fx-fadeInScale">
- 
-    <div class="modal-content modal-card">
- 
+  <body>
+    <!-- First Button-->
+    <span
+      class="button is-danger is-large modal-button"
+      data-target="launchModal"
+      id="launchModal"
+    >
+      Demo</span
+    >
+
+    <div id="modal-fadeInScale-fs" class="modal modal-fx-fadeInScale">
+      <div class="modal-content modal-card">
         <header class="modal-card-head">
- 
-            <p class="modal-card-title">Zion Demo</p>
- 
-            <button class="modal-button-close delete" id="closecross" aria-label="close"></button>
- 
-        </header>
- 
-        <section class="modal-card-body">
- 
-          <div class="content">
- 
-            <section class="section cards">
-               <div class="container">
-                 <div class="columns is-multiline">
+          <p class="modal-card-title">Zion Demo</p>
 
+          <button
+            class="modal-button-close delete"
+            id="closecross"
+            aria-label="close"
+          ></button>
+        </header>
+
+        
+
+
+        <section class="modal-card-body">
+          <div class="content">
+            <section class="section cards">
+              <div class="container">
+                <div class="columns is-multiline">
                   <div class="column img2 xpro2 is-quarter">
-                  <div class="card">
-                     <div class="card-content day-one">
-                       <p class="title">
-                         Weather
-                       </p>
-                       
-                     </div>
-                     <footer class="card-footer">
-                       
-                     </footer>
-                   </div>
+                    <div class="card">
+                      <div class="card-content day-one">
+                        <p class="title">Weather</p>
+                      </div>
+                      <footer class="card-footer"></footer>
+                    </div>
                   </div>
 
-
-
-                   <div class="column img2 xpro2 is-quarter">
-            
-                     <div class="card">
-                        <div class="card-content day-two">
-                          <p class="title">
-                            Weather
-                          </p>
-                          
-                        </div>
-                        <footer class="card-footer">
-                          
-                        </footer>
+                  <div class="column img2 xpro2 is-quarter">
+                    <div class="card">
+                      <div class="card-content day-two">
+                        <p class="title">Weather</p>
                       </div>
-
-
-
-
-                   </div>
-                   <div class="column img3 willow is-quarter">
-                     
-                     <div class="card">
-                        <div class="card-content day-three">
-                          <p class="title">
-                            Weather
-                          </p>
-                          
-                        </div>
-                        <footer class="card-footer">
-                          
-                        </footer>
+                      <footer class="card-footer"></footer>
+                    </div>
+                  </div>
+                  <div class="column img3 willow is-quarter">
+                    <div class="card">
+                      <div class="card-content day-three">
+                        <p class="title">Weather</p>
                       </div>
-
-
-
-
-                   </div>
-                   <div class="column img4 clarendon is-quarter">
-                     
-                     <div class="card">
-                        <div class="card-content day-four">
-                          <p class="title">
-                            Weather
-                          </p>
-                          
-                        </div>
-                        <footer class="card-footer">
-                          
-                        </footer>
+                      <footer class="card-footer"></footer>
+                    </div>
+                  </div>
+                  <div class="column img4 clarendon is-quarter">
+                    <div class="card">
+                      <div class="card-content day-four">
+                        <p class="title">Weather</p>
                       </div>
-
-
-
-                   </div>
-                   <div class="column img2 lofi is-quarter">
-                     
-                     <div class="card">
-                        <div class="card-content day-five">
-                          <p class="title">
-                            Weather
-                          </p>
-                         
-                        </div>
-                        <footer class="card-footer">
-                     
-                        </footer>
+                      <footer class="card-footer"></footer>
+                    </div>
+                  </div>
+                  <div class="column img2 lofi is-quarter">
+                    <div class="card">
+                      <div class="card-content day-five">
+                        <p class="title">Weather</p>
                       </div>
+                      <footer class="card-footer"></footer>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
+           
+            <div class="container">
+              
+          <div id="map"></div>
+        
+        </div>
+        
+        
 
-                   </div>
-                   
-                 </div>
-               </div>
-               </section>
-
-
-
-
-
-
-              <h1>Weather and Stuff</h1>
-               
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat repellendus facere expedita, maxime tempora cupiditate perferendis ad atque provident amet aspernatur illo, ducimus molestias dolorem fugiat blanditiis, accusantium voluptatibus natus.</p>
- 
-          </div> 
- 
-        </section>
- 
         <footer class="modal-card-foot">
- 
-            <button class="modal-button-close button is-success">Yes</button>
- 
-            <button class="modal-button-close button" id="closebtn">Close</button>
- 
+          <button class="modal-button-close button is-success">Yes</button>
+
+          <button class="modal-button-close button" id="closebtn">Close</button>
         </footer>
- 
+      </div>
     </div>
- 
-</div>
 
-
-
- 
-
- 
-<script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-<script type="text/javascript" src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
-<script src="dummyscript.js"></script>
-</body>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"
+    ></script>
+    <script src="dummyscript.js"></script>
+  </body>
 </html>

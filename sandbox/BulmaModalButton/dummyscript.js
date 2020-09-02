@@ -128,6 +128,29 @@ var map = new mapboxgl.Map({
 
 
 //Clickable map icons and descriptions 
+
+
+//You'll need to add these to HTML Head
+//<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+//<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+//<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" /> 
+
+//Add this to body where you want map 
+//<div id="map"></div>
+
+//Add these to Style 
+
+	//body { margin: 0; padding: 0; }
+	//#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+
+/* .mapboxgl-popup {
+max-width: 400px;
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+} */
+
+
+
 map.on("load", function () {
   map.addSource("places", {
     type: "geojson",

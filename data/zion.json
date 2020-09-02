@@ -1,0 +1,63 @@
+{
+    "center": [-113.043036, 37.246740],
+    "zoom": 9.80,
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/route/105717718/the-moonlight-buttress-clean-aid target=\"_blank\" title=\"Opens in a new window\"\"><strong>Moonlight Buttress</strong></a><p>Rating: 5.8 C1</p> The most famous Zion line. While you need adequate climbing experience and skills to complete this route, you can often enjoy the view from the road, as this route sees plenty of traffic throughout the climbing season</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-112.946453, 37.275825] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/3999652/jem-trail\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>JEM Trail</strong></a><p>Rating: Intermediate</p> A heavily trafficked system of cross country trails consisting of beginner to moderate difficulty. Excellent for visitors looking to get the desert Mountain Bike experience without the fear of extreme downhill riding.</p> ',\" target=\"_blank\" title=\"Opens in a new window\"><strong>Dead Horse Point Tour</strong></a><p>Rating: Blue Square</p><p> A mellow, but rewarding singletrack adventure that travels along the edge of the famous Dead Horse state park, giving riders an unbeatable view above Canyonlands National Park.</p>",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.2238968, 37.200189] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/4183760/gooseberry-mesa-the-big-loop\" target=\"_blank\" title=\"Opens in a new window\"><strong>Gooseberry Mesa</strong></a><p>Rating: Intermediate/Advanced</p><p> The premiere Slickrock trail in the greater Zion Area. The undulating dips and twists of Gooseberry Mesa have made it one of the most popular Mountain Biking Trails in the world. While not for absolute beginners, most riders will find something enjoyable to ride.</p>",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.1738045, 37.1417943] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/gem/56/the-narrows\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Narrows</strong></a><p>Difficulty: Novice</p><p>The Narrows is the most famous and trafficked trail in Zion. Not for the faint of heart, the trail does require hikers to enter the Virgin River itself and hike up stream. It is recommended that rent gear from a local Outfitter for this hike </p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-112.9637062, 37.2967228] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7001606/west-rim-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>The West Rim Trail</strong></a><p>An amazing 13 mile backpacking trail that begins in the high alpine and traverses back into Zion canyon. </p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-112.9957071, 37.3200179] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.tripadvisor.com/Tourism-g61001-Springdale_Utah-Vacations.html\" target=\"_blank\" title=\"Opens in a new window\"><strong>Springdale</strong></a><p>The gateway community to Zion National Park, Springdale is the first stop for all of your adventure needs. Lodging, Outfitters, and a wealth of Restaurants can be find in this small desert town.</p>",
+          "icon": "lodging"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.568971, 38.5743966] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/directory/8013268/the-needles\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Needles</strong></a><p>The Needles is an off the beaten path section of Canyonlands National Park that offers some of the best day hiking and backpacking opportunities in the Moab area. </p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-112.9986, 37.1889] }
+      }
+    ]
+  }
+  

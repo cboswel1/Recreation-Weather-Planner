@@ -1,0 +1,79 @@
+{
+    "center": [-113.043036, 37.246740],
+    "zoom": 9.80,
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/route/105717718/the-moonlight-buttress-clean-aid target=\"_blank\" title=\"Opens in a new window\"\"><strong>Moonlight Buttress</strong></a><p>Rating: 5.8 C1</p> The most famous Zion line. While you need adequate climbing experience and skills to complete this route, you can often enjoy the view from the road, as this route sees plenty of traffic throughout the climbing season</p> ",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.232048, 38.4868328] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/3999652/jem-trail target=\"_blank\" title=\"Opens in a new window\"\"><strong>JEM Trail</strong></a><p>Rating: Intermediate</p> A heavily trafficked system of cross country trails consisting of beginner to moderate difficulty. Excellent for visitors looking to get the desert Mountain Bike experience without the fear of extreme downhill riding.</p> ',\" target=\"_blank\" title=\"Opens in a new window\"><strong>Dead Horse Point Tour</strong></a><p>Rating: Blue Square</p><p> A mellow, but rewarding singletrack adventure that travels along the edge of the famous Dead Horse state park, giving riders an unbeatable view above Canyonlands National Park.</p>",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.2238968, 37.200189] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/7008051/big-mesa\" target=\"_blank\" title=\"Opens in a new window\"><strong>Big Mesa</strong></a><p>Rating: Intermediate</p><p> A perfect trail for first timers in the desert. A fun ride through the red rock that offers a little bit of everything. Fun climbs, slick rock, and flowy descents.</p>",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.806907, 38.634891] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7002254/delicate-arch-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>Delicate Arch</strong></a><p>Difficulty: Intermediate</p><p>The premier hike in Arches National Park. Delicate Arch might be a busy trail, but for good reason. Bring plenty of water, as this trail is most uphill to the main feature. </p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.520614, 38.7353629] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7001606/west-rim-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>The West Rim Trail</strong></a><p>An amazing 13 mile backpacking trail that begins in the high alpine and traverses back into Zion canyon. </p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-112.9957071, 37.3200179] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.tripadvisor.com/Tourism-g60724-Moab_Utah-Vacations.html\" target=\"_blank\" title=\"Opens in a new window\"><strong>Moab</strong></a><p>The home of desert adventure in the southwest, Moab is a quirky town that offers a lot for visitors enjoying the many outdoor activities found in the area. </p>",
+          "icon": "lodging"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.568971, 38.5743966] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/directory/8013268/the-needles\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Needles</strong></a><p>The Needles is an off the beaten path section of Canyonlands National Park that offers some of the best day hiking and backpacking opportunities in the Moab area. </p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.9105623, 38.1267304] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/105716859/ancient-art\" target=\"_blank\" title=\"Opens in a new window\"><strong>Ancient Art</strong></a><p>Difficulty: 5.10 A0</p>The Stolen Chimney route up Ancient Art is one of the most famous and photographed climbs in the world. The climb leads to a small spire that only on person can stand on and get that selfie. </p>",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.304, 38.722] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/105716763/indian-creek\" target=\"_blank\" title=\"Opens in a new window\"><strong>Indian Creek</strong></a><p>Difficulty: various</p>The Indian Creek Rock Climbing area is a sandstone, crack climbing paradise, that features some of the most pristine desert towers in the world.</p>",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.542194, 38.0258] }
+      }
+    ]
+  }
+  

@@ -1,0 +1,63 @@
+body {
+    background-color: #ADB5BD;
+
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+.box {
+    height: 70%;
+    width: 70%;
+    margin: 5% 5% 20% 20%;
+    border: 5% 5%;
+    padding: 3% 3%;
+    align-content: center;
+}
+
+.header {
+    height: 80%;
+    border: 0% 0%;
+    padding: 2% 2%;
+    font-size: 24px;
+    text-align: center;
+    color: #B54D03;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #FFE0AD;
+}
+
+#utahMap {
+    align-content: center;
+}
+
+.img-overlay-wrap {
+    position: relative;
+    display: inline-block;
+    transition: transform 150ms ease-in-out;
+}
+
+.img-overlay-wrap img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.img-overlay-wrap svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+/* #overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} 

@@ -115,18 +115,6 @@ $.ajax({
 
 //Map Box For General Zion Area
 
-mapboxgl.accessToken =
-  "pk.eyJ1IjoiY2Jvc3dlbDEiLCJhIjoiY2tlajdyNm5mMDQ1cjJ6dDZzdGp4eWkwaCJ9.gWfilc1vYPS6ok4D9WRydw";
-var map = new mapboxgl.Map({
-  container: "map",
-  style: "mapbox://styles/mapbox/streets-v11",
-
-  //Sets Lat and Long for
-  center: [-113.043036, 37.246740],
-  zoom: 9.80,
-});
-
-
 //Clickable map icons and descriptions 
 
 
@@ -148,6 +136,18 @@ var map = new mapboxgl.Map({
 max-width: 400px;
 font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
 } */
+
+
+mapboxgl.accessToken =
+  "pk.eyJ1IjoiY2Jvc3dlbDEiLCJhIjoiY2tlajdyNm5mMDQ1cjJ6dDZzdGp4eWkwaCJ9.gWfilc1vYPS6ok4D9WRydw";
+var map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/streets-v11",
+
+  //Sets Lat and Long for
+  center: [-113.043036, 37.246740],
+  zoom: 9.80,
+});
 
 
 

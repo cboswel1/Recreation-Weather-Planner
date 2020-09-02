@@ -50,7 +50,44 @@ body {
     left: 0;
 }
 
+/* css for the modal */
 
+.current-date {
+    font-size: 25px;
+    font-weight: bold;
+    
+    }
+    
+    .current-weather-icon {
+    width: 200px;
+    height: 200px;
+    
+    }
+    
+    .current-weather-values {
+    font-size: 50 px;
+    
+    }
+    
+    #tab-content p {
+        display: none;
+      }
+     #tab-content p.is-active {
+        display: block;
+      }
+    
+      .image {
+        width: 700px;
+        
+    
+
+      }
+    
+      .tabs {
+    flex: flex-wrap;
+    
+    
+      }
 /* #overlay {
     position: fixed;
     display: none;
@@ -61,3 +98,7 @@ body {
     right: 0;
     bottom: 0;
 } 
+
+
+
+

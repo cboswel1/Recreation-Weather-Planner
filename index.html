@@ -32,6 +32,146 @@
     </div>
 </div>
 
+ <!-- start of the html for the modal -->
+
+ <div id="modal" class="modal">
+    <div class="modal-background"></div>
+    <div class="modal-card">
+        <header class="modal-card-head has-background-success">
+
+            <!-- h1 element for the region name -->
+
+            <h1 class="modal-card-title" id="region-name-h1"></h1>
+
+        </header>
+
+        <section class="modal-card-body">
+            <div class="content">
+                <!-- text are for the region bio -->
+
+                <p id="region-bio-p"></p>
+
+                <h2>Current Conditions</h2>
+
+                <!-- current forecast html -->
+
+                <div class="current-forecast box">
+                    <p class="current-date"></p>
+                    <div class="columns">
+                        <div class="column">
+                            <img src="" class="current-weather-icon" alt="" id="current-icon">
+                        </div>
+
+                        <div class="column current-weather-values">
+                            <p class="is-size-4" id="current-temperature"></p>
+                            <p class="is-size-4" id="current-humidity"></p>
+                            <p class="is-size-4" id="current-wind-speed"></p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <!-- 5 day forecast html -->
+
+                <h3>5 Day Forecast</h3>
+                <div class="box">
+                    <div class="columns">
+
+                        <!-- day 1 -->
+
+                        <div class="column has-background-primary has-text-black">
+                            <p class="date" id="day-1-date"></p>
+                            <img class="weatherIcon" src="" alt="" id="day-1-icon">
+                            <p class="temperture" id="day-1-temp"></p>
+                            <p class="humidity" id="day-1-humid"></p>
+                        </div>
+
+                        <!-- day 2 -->
+
+                        <div class="column has-background-primary has-text-black">
+                            <p class="date" id="day-2-date"></p>
+                            <img class="weatherIcon" src="" alt="" id="day-2-icon">
+                            <p class="temperture" id="day-2-temp"></p>
+                            <p class="humidity" id="day-2-humid"></p>
+                        </div>
+
+                        <!-- day 3 -->
+
+                        <div class="column has-background-primary has-text-black">
+                            <p class="date" id="day-3-html"></p>
+                            <img class="weatherIcon" src="" alt="" id="day-3-icon">
+                            <p class="temperture" id="day-3-temp"></p>
+                            <p class="humidity" id="day-3-humid"></p>
+                        </div>
+
+                        <!-- day 4 -->
+
+                        <div class="column has-background-primary has-text-black">
+                            <p class="date" id="day-4-date"></p>
+                            <img class="weatherIcon" src="" alt="" id="day-4-icon">
+                            <p class="temperture" id="day-4-temp"></p>
+                            <p class="humidity" id="day-4-humid"></p>
+                        </div>
+
+                        <!-- day 5 -->
+
+                        <div class="column has-background-primary has-text-black">
+                            <p class="date" id="day-5-date"></p>
+                            <img class="weatherIcon" src="" alt="" id="day-5-icon">
+                            <p class="temperture" id="day-5-temp"></p>
+                            <p class="humidity" id="day-5-humid"></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- information tabs -->
+
+                <div class="tabs is-toggle is-fullwidth" id="tabs">
+                    <ul>
+                        <li class="is-active" data-tab="1">
+                            <a>
+                                <span class="icon is-medium"><i class="fa fa-image"></i></span>
+                                <span>Climbing</span>
+                            </a>
+                        </li>
+                        <li data-tab="2">
+                            <a>
+                                <span class="icon is-medium"><i class="fa fa-bicycle"></i></span>
+                                <span>Mountain Biking</span>
+                            </a>
+                        </li>
+                        <li data-tab="3">
+                            <a>
+                                <span class="icon is-medium"><i class="fa fa-blind"></i></span>
+                                <span>Hiking</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- tab button contents -->
+
+            <div id="tab-content">
+                <p class="is-active amp" data-content="1">
+                <div id="climbing-content"></div>
+                </p>
+                <p class="map" data-content="2">
+                <div id="biking-content"></div>
+                </p>
+                <p class="map" data-content="3">
+                <div id="hiking-content"></div>
+                </p>
+            </div>
+        </section>
+        <footer class="modal-card-foot"></footer>
+
+    </div>
+    <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
 
 </body>
 </html>

@@ -145,8 +145,8 @@ var map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v11",
 
   //Sets Lat and Long for
-  center: [-113.043036, 37.246740],
-  zoom: 9.80,
+  center: [-111.7326771, 40.6157054],
+  zoom: 9.00,
 });
 
 
@@ -167,7 +167,7 @@ map.on("load", function () {
           },
           geometry: {
             type: "Point",
-            coordinates: [-113.2238968, 37.200189],
+            coordinates: [-111.51491, 40.6560426],
           },
         },
         {
@@ -179,7 +179,7 @@ map.on("load", function () {
           },
           geometry: {
             type: "Point",
-            coordinates: [-112.946453, 37.275825],
+            coordinates: [-111.8599227, 40.7867802],
           },
         },
         {
@@ -191,7 +191,7 @@ map.on("load", function () {
           },
           geometry: {
             type: "Point",
-            coordinates: [-113.1738045, 37.1417943],
+            coordinates: [-111.468117, 40.5033512],
           },
         },
         {

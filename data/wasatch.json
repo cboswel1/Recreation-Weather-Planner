@@ -1,0 +1,63 @@
+{
+    "center": [-111.7326771, 40.6157054],
+    "zoom": 9.80,
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/3654027/wasatch-crest\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Wasatch Crest Trail</strong></a><p>Rating: Intermediate</p> A high alpine jem. The Wasatch Crest Trail is a 12.5 mile stunner that offers amazing 360 degree views of the Wasatch front and back.</p> ",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.51491, 40.6560426] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/968652/bobsled\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Bobsled</strong></a><p>Rating: Advanced</p> One of the most popular downhill trails on the Wasatch Front. Bobsled is a ripper, with plenty of technical jumps and fast corners.</p>",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.8599227, 40.7867802] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/7024052/phosphate\" target=\"_blank\" title=\"Opens in a new window\"><strong>Phosphate</strong></a><p>Rating: Intermediate</p><p> Part of the Dutch Hollow Trail network, this fun 3.7mile cross country ride offers great views of midway and Burgi Hill.</p>",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.468117, 40.5033512] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/route/105740048/the-coffin\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Coffin</strong></a><p>Difficulty: 5.9</p><p>Classic finger crack on the face of Coffin Buttress in Little Cottonwood Canyon.  </p>",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.765899, 40.572541] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/route/105741137/lowe-route\" target=\"_blank\" title=\"Opens in a new window\"><strong>Lowe Route</strong></a><p>Rating: 5.8</p><p>The best 5.8 in the cirque, on the left side of the wall. Start in a sweet handcrack in a dihedral and belay on a ledge. The next pitch is a wandering 5.7, as is the last, amazing pitch on the headwall which follows a crack with ample face jugs.</p>",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.7597386, 40.5274733] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7023592/grandeur-peak-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>Grandeur Peak Trail</strong></a><p>Difficulty: Intermediate</p><p>Short, yet steep, exposed trail with great views of the Salt Lake Valley from the peak. ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.742354, 40.7696758] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7010500/bells-canyon-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>Bells Canyon Trail</strong></a><p>Difficulty: Difficult</p><p>One of the most popular Wasatch front trails. Bells canyon is a 4.8 mile hike to two beautiful reservoirs and a waterfall. </p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.8671189, 40.5717951] }
+      }
+    ]
+  }
+  

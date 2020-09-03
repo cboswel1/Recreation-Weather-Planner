@@ -42,7 +42,7 @@ var fiveDayW = "https://api.openweathermap.org/data/2.5/forecast?q=Moab&appid=9f
 
 // script for the modal click
 
-$(".modal-button").click(function() {
+$(".cls-1").click(function() {
   var target = $(this).data("target");
   $("html").addClass("is-clipped");
   $(target).addClass("is-active");
@@ -52,6 +52,8 @@ $(".modal-close").click(function() {
   $("html").removeClass("is-clipped");
   $(this).parent().removeClass("is-active");
 });
+
+
 
 // function to hide or show map based on tab opened
 $(document).ready(function() {

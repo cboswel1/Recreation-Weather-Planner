@@ -145,7 +145,7 @@ var map = new mapboxgl.Map({
   style: "mapbox://styles/mapbox/streets-v11",
 
   //Sets Lat and Long for
-  center: [-111.7326771, 40.6157054],
+  center: [-111.8338359, 41.7369803],
   zoom: 9.00,
 });
 

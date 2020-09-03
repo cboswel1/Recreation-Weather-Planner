@@ -1,0 +1,15 @@
+{
+    "center": [-110.0482188, 37.3640109],
+    "zoom": 8.00,
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/gem/682/goosenecks-viewpoint\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Goosenecks Viewpoint</strong></a><p> The Goosenecks State Park Viewpoint is perhaps one of the greatest examples of entrenched meander in all of Utah. Approximately 1000 feet below you, the mighty San Juan River turns and twists, flowing six miles while only advancing one and a half linear miles. </p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.9292409, 37.1742442] }
+      }
+    
+    ]
+  }

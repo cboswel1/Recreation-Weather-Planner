@@ -1,5 +1,6 @@
 body {
     background-color: #ADB5BD;
+    margin: 0;
 
 }
 
@@ -11,21 +12,32 @@ body {
 .box {
     height: 70%;
     width: 70%;
-    margin: 5% 5% 20% 20%;
-    border: 5% 5%;
-    padding: 3% 3%;
+    margin: 0 auto;
+    padding: 0% 0%;
     align-content: center;
+    position: relative; 
+    overflow: none; 
+    display: flex;
+    justify-content: center;
 }
 
-.header {
-    height: 80%;
+header {
+    height: 50%;
     border: 0% 0%;
-    padding: 2% 2%;
+    padding: 0%;
     font-size: 24px;
     text-align: center;
     color: #B54D03;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #FFE0AD;
+}
+
+h1 {
+    margin: 0;
+}
+
+.Layer_1 {
+    padding: 5% 5%;
 }
 
 #utahMap {

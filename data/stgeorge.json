@@ -1,0 +1,16 @@
+{
+    "center": [-113.6335372, 37.1048133],
+    "zoom": 10.00,
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/704021/zen-trail\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>ZEN Trail</strong></a><p>Rating: Difficult</p> Lots of work for a big payoff. The ZEN trail is classic desert singletrack with a punchy climb leading to a fast technical descent. </p> ",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.631098, 37.089971] }
+      }
+    
+    ]
+  }
+  

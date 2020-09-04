@@ -1,0 +1,16 @@
+{
+    "center": [-111.8338359, 41.7369803],
+    "zoom": 8.00,
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7033897/grandaddy-basin-out-and-back\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Grand Daddy Basin Out and Back</strong></a><p>Rating: Difficult</p> Grandaddy Basin is a very popular area in the High Uintas Wilderness due to its proximity to Salt Lake City, its fantastic lakes, and overall gorgeous views. While you might not have the basin to yourself, once you make it past the first few lakes, the number of hikers drops drastically and the landscape offers more solitude. </p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-110.825606, 40.5607197] }
+      }
+    
+    ]
+  }
+  

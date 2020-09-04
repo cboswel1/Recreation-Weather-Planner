@@ -1,0 +1,15 @@
+{
+  "center": [-111.8338359, 41.7369803],
+  "zoom": 9.00,
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<a href=\"https://www.mtbproject.com/trail/7000659/providence-canyon\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Providence Canyon</strong></a><p>Rating: Difficult</p> A steep, rocky climb with a a fast, burmed descent </p> ",
+        "icon": "bicycle"
+      },
+      "geometry": { "type": "Point", "coordinates": [-109.232048, 38.4868328] }
+    }
+  
+  ]
+}

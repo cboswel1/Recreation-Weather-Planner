@@ -39,3 +39,31 @@ var fiveDayW = "https://api.openweathermap.org/data/2.5/forecast?q=Moab&appid=9f
   //day five
   cardFun(5, 32, "five");
 });
+
+// script for the modal click
+
+$(".cls-1").click(function() {
+  var target = $(this).data("target");
+  $("html").addClass("is-clipped");
+  $(target).addClass("is-active");
+});
+
+$(".modal-close").click(function() {
+  $("html").removeClass("is-clipped");
+  $(this).parent().removeClass("is-active");
+});
+
+
+
+// function to hide or show map based on tab opened
+$(document).ready(function() {
+ $('#tabs li').on('click', function() {
+   var tab = $(this).data('tab');
+
+   $('#tabs li').removeClass('is-active');
+   $(this).addClass('is-active');
+
+   $('#tab-content p').removeClass('is-active');
+   $('p[data-content="' + tab + '"]').addClass('is-active');
+ });
+});

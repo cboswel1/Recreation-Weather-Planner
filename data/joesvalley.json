@@ -1,0 +1,16 @@
+{
+    "center": [-111.1801348, 39.2898327],
+    "zoom": 11.00,
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/105880391/left-fork\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Left Fork Bouldering</strong></a><p>The Left Fork has a high concentration of great areas. The Riverside area is by far the most popular due to the number of easier Bouldering problems. Parking can be an issue there since it's adjacent to the Big Joe area which also sees a lot of traffic.  </p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.208981, 39.275335] }
+      }
+    
+    ]
+  }
+  

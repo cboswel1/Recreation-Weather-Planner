@@ -14,7 +14,7 @@
       href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css"
     />
 
-    <link rel="stylesheet" href="dummystyle.css" />
+    <link rel="stylesheet" href="dummystyle.css">
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
     <link
@@ -28,9 +28,28 @@
     <span
       class="button is-danger is-large modal-button"
       data-target="launchModal"
+      data-location="moab"
       id="launchModal"
     >
-      Demo</span
+      Moab</span
+    >
+
+    <span
+      class="button is-danger is-large modal-button"
+      data-target="launchZionModal"
+      data-location="zion"
+      id="launchZionModal"
+    >
+      zion</span
+    >
+
+    <span
+      class="button is-danger is-large modal-button"
+      data-target="launchWasatchModal"
+      data-location="wasatch"
+      id="launchWasatchModal"
+    >
+      Wasatch</span
     >
 
     <div id="modal-fadeInScale-fs" class="modal modal-fx-fadeInScale">
@@ -94,15 +113,16 @@
                       <footer class="card-footer"></footer>
                     </div>
                   </div>
+                  <div class="container">
+                    <div id="map"></div>
+                </div>  
                 </div>
               </div>
             </section>
+        </section>
 
            
-            <div class="container">
-              
-          <div id="map"></div>
-        
+                  
         </div>
         
         
@@ -113,14 +133,11 @@
           <button class="modal-button-close button" id="closebtn">Close</button>
         </footer>
       </div>
-    </div>
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script
-      type="text/javascript"
-      src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"
-    ></script>
-    <script src="dummyscript.js"></script>
+    <script type="text/javascript"src="https://unpkg.com/bulma-modal-fx/dist/js/modal-fx.min.js"></script>
+    <script src="/index.js"></script>
   </body>
 </html>

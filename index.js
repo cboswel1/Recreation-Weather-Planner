@@ -69,6 +69,7 @@ $.ajax({
   //Display Current Date 
   var currentDate = moment().format('L')
   
+  //need to assign this class within modal
   var cDate = $(".date").text(currentDate);
   
 
@@ -87,7 +88,6 @@ $.ajax({
   cWeather.empty();
 
   var currentTemp = $("<p>").text("Current Temperature: " + response.main.temp + " °F");
-  console.log(currentTemp);
   var currentHum = $("<p>").text("Current Humidity: " + response.main.humidity + "%");
   var windSpeed = $("<p>").text("Wind Speed: " + response.wind.speed + "mph");
 

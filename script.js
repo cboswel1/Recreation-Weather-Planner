@@ -47,7 +47,7 @@ function fetchMapData(map) {
 
 // script for the modal click
 
-$(".cls-1").click(function() {
+$(".modal-button").click(function() {
   var target = $(this).data("target");
   $("html").addClass("is-clipped");
   $(target).addClass("is-active");

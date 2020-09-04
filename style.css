@@ -1,7 +1,6 @@
 body {
     background-color: #ADB5BD;
     margin: 0;
-
 }
 
 @viewport {
@@ -14,26 +13,7 @@ html {
 }
 
 
-
 .container {
-
-body { 
-    margin: 0; 
-    padding: 0; 
-}
-
-#map { 
-    position: absolute; 
-    top: 0; bottom: 0; 
-    width: 100%; }
-
-.mapboxgl-popup {
-    max-width: 400px;
-    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
-    }
-
-.box {
-
     height: 70%;
     max-width: 100%;
     margin: 0 auto;
@@ -47,7 +27,7 @@ body {
     border-radius: 0px;
     box-shadow: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width:1024px) {
     img {
         height: 100%;
         width: 80%;
@@ -58,7 +38,18 @@ body {
     }
 }
 
-@media only screen and (max-width:1024px) {
+@media only screen and (max-width: 1408px) {
+    img {
+        height: 100%;
+        width: 40%;
+    }
+    svg {
+        height: 2%;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
     img {
         height: 100%;
         width: 80%;
@@ -79,6 +70,22 @@ header {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #FFE0AD;
 }
+
+#map { 
+    position: absolute; 
+    top: 0; bottom: 0; 
+    width: 100%; }
+
+.mapboxgl-popup {
+    max-width: 400px;
+    font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    }
+
+.box {
+
+}
+
+
 
 h1 {
     margin: 0;
@@ -123,7 +130,7 @@ h1 {
     }
     
     .current-weather-values {
-    font-size: 50 px;
+    font-size: 50px;
     
     }
     
@@ -145,7 +152,11 @@ h1 {
     flex: flex-wrap;
     
     
-      }
+    }
+
+
+
+
 
 
 

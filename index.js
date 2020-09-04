@@ -49,13 +49,54 @@ $("#closeWasatchcross").click(function () {
   $(".modal").removeClass("is-active");
 });
 
+//moab, logan, blanding, stgeorge, alta, orangeville, virgin, kamas
+var citySearch = ["5543307", "5777544", "5535484", "4846729", "4846729", "5549225", "5776692"]
+
 var fiveDayW =
-  "https://api.openweathermap.org/data/2.5/forecast?q=Moab&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
+  "https://api.openweathermap.org/data/2.5/forecast?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
 
-var trailData =
-  "https://www.mtbproject.com/data/get-trails-by-id?ids=3999652&key=200138078-de19b7418c037c926c033e53b7184dcb";
+var currentDayW =
+  "https://api.openweathermap.org/data/2.5/weather?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
 
-//
+
+//Current forecast 
+$.ajax({
+  url: currentDayW, 
+  method: "GET"
+}).then(function(response) {
+
+ 
+  //Display Current Date 
+  var currentDate = moment().format('L')
+  
+  var cDate = $(".date").text(currentDate);
+  
+
+  //Generating Weather Icon 
+  var icons = response.weather[0].icon;
+
+  var weatherIcon = "https://openweathermap.org/img/wn/" + icons + ".png"
+
+  var wi = $(".weather-icon").attr("src", weatherIcon);
+  var wi = $(".weather-icon").attr("alt", "current weather icon");
+
+  
+  //Current Weather Temp, Humidity, Wind Speed Append
+  var cWeather = $("#current-weather"); 
+
+  cWeather.empty();
+
+  var currentTemp = $("<p>").text("Current Temperature: " + response.main.temp + " °F");
+  console.log(currentTemp);
+  var currentHum = $("<p>").text("Current Humidity: " + response.main.humidity + "%");
+  var windSpeed = $("<p>").text("Wind Speed: " + response.wind.speed + "mph");
+
+  cWeather.append(currentTemp, currentHum, windSpeed); 
+
+  }); 
+   
+
+
 
 //5 day forecast call
 $.ajax({

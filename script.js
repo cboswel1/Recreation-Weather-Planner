@@ -1,7 +1,51 @@
-//Moab 5 day, will need to concat for different cities on map
-var fiveDayW = "https://api.openweathermap.org/data/2.5/forecast?q=Moab&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial"; 
+//moab, logan, blanding, stgeorge, alta, orangeville, virgin, kamas
+var citySearch = ["5543307", "5777544", "5535484", "4846729", "4846729", "5549225", "5776692"]
+
+var fiveDayW =
+  "https://api.openweathermap.org/data/2.5/forecast?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
+
+var currentDayW =
+  "https://api.openweathermap.org/data/2.5/weather?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
   
   
+
+  
+  //Current forecast 
+$.ajax({
+  url: currentDayW, 
+  method: "GET"
+}).then(function(response) {
+
+ 
+  //Display Current Date 
+  var currentDate = moment().format('L')
+  
+  var cDate = $(".date").text(currentDate);
+  
+
+  //Generating Weather Icon 
+  var icons = response.weather[0].icon;
+
+  var weatherIcon = "https://openweathermap.org/img/wn/" + icons + ".png"
+
+  var wIcon = $(".weather-icon").attr("src", weatherIcon);
+  var wIcon = $(".weather-icon").attr("alt", "current weather icon");
+
+  
+  //Current Weather Temp, Humidity, Wind Speed Append
+  var cWeather = $("#current-weather"); 
+
+  cWeather.empty();
+
+  var currentTemp = $("<p>").text("Current Temperature: " + response.main.temp + " °F");
+  var currentHum = $("<p>").text("Current Humidity: " + response.main.humidity + "%");
+  var windSpeed = $("<p>").text("Wind Speed: " + response.wind.speed + "mph");
+
+  cWeather.append(currentTemp, currentHum, windSpeed); 
+
+  }); 
+
+
   //5 day forecast call
   $.ajax({
     url: fiveDayW,
@@ -47,7 +91,7 @@ function fetchMapData(map) {
 
 // script for the modal click
 
-$(".cls-1").click(function() {
+$(".modal-button").click(function() {
   var target = $(this).data("target");
   $("html").addClass("is-clipped");
   $(target).addClass("is-active");

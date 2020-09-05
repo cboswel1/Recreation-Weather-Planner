@@ -2,10 +2,10 @@
 var citySearch = ["5543307", "5777544", "5535484", "4846729", "4846729", "5549225", "5776692"]
 
 var fiveDayW =
-  "https://api.openweathermap.org/data/2.5/forecast?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
+  "https://api.openweathermap.org/data/2.5/forecast?id=" + citySearch[0] + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
 
 var currentDayW =
-  "https://api.openweathermap.org/data/2.5/weather?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
+  "https://api.openweathermap.org/data/2.5/weather?id=" + citySearch[0] + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
 
 
 

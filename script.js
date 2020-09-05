@@ -108,9 +108,8 @@ let modalTitle = $("#region-name-h1")
 let modalBio = $("#region-bio-p")
 
 $(".modal-button").click(function () {
-  var target = $(this).data("target");
   $("html").addClass("is-clipped");
-  $(target).addClass("is-active");
+  $(".modal").addClass("is-active");
   let btn = $(event.currentTarget)
   let btnName = btn.attr("data-location")
   console.log(btnName)
@@ -122,7 +121,6 @@ $(".modal-button").click(function () {
   else if (btnName === "Wasatch") {
   modalBio.text(regionBios[1])
   }
-  
   else if (btnName === "Uintas") {
     modalBio.text(regionBios[2])
   }
@@ -154,7 +152,7 @@ $(".modal-button").click(function () {
 
 $(".modal-close").click(function () {
   $("html").removeClass("is-clipped");
-  $(this).parent().removeClass("is-active");
+  $(".modal").removeClass("is-active");
 });
 
 //function to generate map

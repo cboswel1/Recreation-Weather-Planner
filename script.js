@@ -11,9 +11,6 @@ let regionBios = [
 ];
 
 
-  
-  let regionTitles = ["Logan", "Wasatch", "Uintas", "Joe's Valley", "Moab", "St. George", "Zion", "Cedar Mesa"]
-
 
 //modal button and events
 $(".modal-button").click(function () {
@@ -29,14 +26,13 @@ $(".modal-button").click(function () {
   console.log(btnName);
   modalTitle.text(btnName);
 
-
   if (btnName === "logan") {
     modalBio.text(regionBios[0]);
     var citySearch = "5777544";
   } else if (btnName === "wasatch") {
     modalBio.text(regionBios[1]);
     citySearch = "4846729";
-  } else if (btnName === "uintas") {
+  } else if (btnName === "unitas") {
     modalBio.text(regionBios[2]);
     citySearch = "5776692";
   } else if (btnName === "joesvalley") {
@@ -52,51 +48,6 @@ $(".modal-button").click(function () {
     modalBio.text(regionBios[6]);
     citySearch = "5549225";
   } else {
-
-  let btn = $(event.currentTarget)
-  let btnName = btn.attr("data-location")
-
-  if (btnName === "logan"){
-    modalTitle.text(regionTitles[0])
-    modalBio.text(regionBios[0]);
-    var citySearch = "5777544";
-    console.log(citySearch);
-  }
-  else if (btnName === "wasatch") {
-    modalTitle.text(regionTitles[1])
-    modalBio.text(regionBios[1])
-    citySearch = "4846729"
-  }
-  else if (btnName === "uintas") {
-    modalTitle.text(regionTitles[2])
-    modalBio.text(regionBios[2]);
-    citySearch = "5776692";
-  }
-  else if (btnName === "joesvalley") {
-    modalTitle.text(regionTitles[3])
-    modalBio.text(regionBios[3]);
-    citySearch = "5544402";
-  }
-  else if (btnName === "moab") {
-    modalTitle.text(regionTitles[4])
-    modalBio.text(regionBios[4]);
-    citySearch = "5543307";
-  }
-  
-  else if (btnName === "stgeorge") {
-    modalTitle.text(regionTitles[5])
-    modalBio.text(regionBios[5]);
-    citySearch = "5546220";
-  }
-
-  else if (btnName === "zion") {
-    modalTitle.text(regionTitles[6])
-    modalBio.text(regionBios[6]);
-    citySearch = "5549225";
-  }
-
-  else {
-    modalTitle.text(regionTitles[7])
     modalBio.text(regionBios[7]);
     citySearch = "5535484";
   }
@@ -180,21 +131,12 @@ $(".modal-button").click(function () {
     //day three
     cardFun(3, 16, "three");
 
-
     //day four
     cardFun(4, 24, "four");
 
     //day five
     cardFun(5, 32, "five");
   });
-
-    //setting temp and hum 
-    var DayTemp = $("<p>").text("Temperature: " + response.list[apiList].main.temp + " F");
-    var DayHum = $("<p>").text("Humidity: " + response.list[apiList].main.humidity + "%");
-    
-    //var to append
-    var fiveDay = $(".day-" + currentDay);
-
 
   
 
@@ -287,7 +229,3 @@ function generateMap(data) {
 $(".modal-close").click(function () {
   $(".modal").removeClass("is-active");
 });
-
-
-
-

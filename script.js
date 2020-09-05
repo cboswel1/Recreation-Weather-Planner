@@ -1,16 +1,91 @@
-//moab, logan, blanding, stgeorge, alta, orangeville, virgin, kamas
-var citySearch = ["5543307", "5777544", "5535484", "4846729", "4846729", "5549225", "5776692"]
-
-var fiveDayW =
-  "https://api.openweathermap.org/data/2.5/forecast?id=" + citySearch[0] + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
-
-var currentDayW =
-  "https://api.openweathermap.org/data/2.5/weather?id=" + citySearch[0] + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
 
 
 
 
-//Current forecast 
+// script for the modal click
+let regionBios =
+  ["Logan logan logan logan logan logan Logan logan logan logan logan loganLogan logan logan logan logan loganLogan logan logan logan logan logan",
+    " Wasatch Wasatch Wasatch Wasatch Wasatch WasatchWasatch Wasatch Wasatch WasatchWasatch Wasatch Wasatch Wasatch Wasatch WasatchWasatch Wasatch Wasatch Wasatch",
+  "Uintas Uintas Uintas Uintas Uintas Uintas Uintas Uintas Uintas UintasUintas Uintas Uintas Uintas UintasUintas Uintas Uintas Uintas UintasUintas Uintas Uintas Uintas Uintas",
+"Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley  ",
+"Moab Moab Moab Moab Moab Moab Moab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab Moab ",
+" St George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St George",
+"Zion Zion Zion Zion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion Zion",
+" Cedar Mesa Cedar Mesa Cedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar Mesa"
+
+
+
+  ]
+
+//modal button and events
+$(".modal-button").click(function () {
+  $("html").addClass("is-clipped");
+  $(".modal").addClass("is-active");
+  
+  function eachCityWeather () {
+      for (var i = 0; i < citySearch.length; i++) {
+        console.log(citySearch[i]);
+    
+        
+      }
+    }
+
+let modalTitle = $("#region-name-h1")
+let modalBio = $("#region-bio-p")
+
+
+
+
+
+  let btn = $(event.currentTarget)
+  let btnName = btn.attr("data-location")
+  console.log(btnName)
+  modalTitle.text(btnName)
+
+  if (btnName === "logan"){
+    modalBio.text(regionBios[0]);
+    var citySearch = "5777544";
+    console.log(citySearch);
+  }
+  else if (btnName === "wasatch") {
+    modalBio.text(regionBios[1])
+    citySearch = "4846729"
+  }
+  else if (btnName === "uintas") {
+    modalBio.text(regionBios[2]);
+    citySearch = "5776692";
+  }
+  else if (btnName === "joesvalley") {
+    modalBio.text(regionBios[3]);
+    citySearch = "5544402";
+  }
+  else if (btnName === "moab") {
+    modalBio.text(regionBios[4]);
+    citySearch = "5543307";
+  }
+  
+  else if (btnName === "stgeorge") {
+    modalBio.text(regionBios[5]);
+    citySearch = "5546220";
+  }
+
+  else if (btnName === "zion") {
+    modalBio.text(regionBios[6]);
+    citySearch = "5549225";
+  }
+
+  else {
+    modalBio.text(regionBios[7]);
+    citySearch = "5535484";
+  };
+
+  var fiveDayW =
+  "https://api.openweathermap.org/data/2.5/forecast?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
+
+  var currentDayW =
+  "https://api.openweathermap.org/data/2.5/weather?id=" + citySearch + "&appid=9f0120827a50e9a11f1c94d939f4dbfc&units=imperial";
+  
+  //Current forecast 
 $.ajax({
   url: currentDayW,
   method: "GET"
@@ -45,7 +120,6 @@ $.ajax({
 
 });
 
-
 //5 day forecast call
 $.ajax({
   url: fiveDayW,
@@ -64,6 +138,7 @@ $.ajax({
     //var to append
     var fiveDay = $(".day-" + currentDay);
 
+    fiveDay.empty();
 
     // append
     fiveDay.append(dateDay, DayTemp, DayHum);
@@ -84,80 +159,13 @@ $.ajax({
   cardFun(5, 32, "five");
 });
 
+});
+
+
 //fetch map to display on click 
 function fetchMapData(map) {
   $.getJSON(`../../data/${map}.json`, generateMap);
 }
-
-// script for the modal click
-let regionBios =
-  ["Logan logan logan logan logan logan Logan logan logan logan logan loganLogan logan logan logan logan loganLogan logan logan logan logan logan",
-    " Wasatch Wasatch Wasatch Wasatch Wasatch WasatchWasatch Wasatch Wasatch WasatchWasatch Wasatch Wasatch Wasatch Wasatch WasatchWasatch Wasatch Wasatch Wasatch",
-  "Uintas Uintas Uintas Uintas Uintas Uintas Uintas Uintas Uintas UintasUintas Uintas Uintas Uintas UintasUintas Uintas Uintas Uintas UintasUintas Uintas Uintas Uintas Uintas",
-"Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley Joe's Valley Joes Valley Joes Valley  ",
-"Moab Moab Moab Moab Moab Moab Moab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab MoabMoab Moab Moab Moab Moab Moab ",
-" St George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St GeorgeSt George St George",
-"Zion Zion Zion Zion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion ZionZion Zion Zion",
-" Cedar Mesa Cedar Mesa Cedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar Mesa"
-
-
-
-  ]
-
-// let modalTitle = $("#region-name-h1")
-// let modalBio = $("#region-bio-p")
-
-
-  // let btn = $(event.currentTarget)
-  // let btnName = btn.attr("data-location")
-  // console.log(btnName)
-  // modalTitle.text(btnName)
-
-  // if (btnName === "Logan"){
-  //   modalBio.text(regionBios[0])
-  // }
-  // else if (btnName === "Wasatch") {
-  // modalBio.text(regionBios[1])
-  // }
-  // else if (btnName === "Uintas") {
-  //   modalBio.text(regionBios[2])
-  // }
-  // else if (btnName === "Joe's Valley") {
-  //   modalBio.text(regionBios[3])
-  // }
-  // else if (btnName === "Moab") {
-  //   modalBio.text(regionBios[4])
-  // }
-  
-  // else if (btnName === "St. George") {
-  //   modalBio.text(regionBios[5])
-  // }
-
-  // else if (btnName === "Zion") {
-  //   modalBio.text(regionBios[6])
-  // }
-
-  // else {
-  //   modalBio.text(regionBios[7])
-  // }
-
-
-
-
-
-
-
-
-$(".modal-button").click(function () {
-  $("html").addClass("is-clipped");
-  $(".modal").addClass("is-active");
-
-});
-
-$(".modal-close").click(function () {
-  $("html").removeClass("is-clipped");
-  $(".modal").removeClass("is-active");
-});
 
 //function to generate map
 function generateMap(data) {
@@ -223,5 +231,17 @@ function generateMap(data) {
     });
   });
 };
+
+
+
+
+
+
+$(".modal-close").click(function () {
+  $("html").removeClass("is-clipped");
+  $(".modal").removeClass("is-active");
+});
+
+
 
 

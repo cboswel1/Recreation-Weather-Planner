@@ -104,49 +104,53 @@ let regionBios =
 
   ]
 
-let modalTitle = $("#region-name-h1")
-let modalBio = $("#region-bio-p")
+// let modalTitle = $("#region-name-h1")
+// let modalBio = $("#region-bio-p")
+
+
+  // let btn = $(event.currentTarget)
+  // let btnName = btn.attr("data-location")
+  // console.log(btnName)
+  // modalTitle.text(btnName)
+
+  // if (btnName === "Logan"){
+  //   modalBio.text(regionBios[0])
+  // }
+  // else if (btnName === "Wasatch") {
+  // modalBio.text(regionBios[1])
+  // }
+  // else if (btnName === "Uintas") {
+  //   modalBio.text(regionBios[2])
+  // }
+  // else if (btnName === "Joe's Valley") {
+  //   modalBio.text(regionBios[3])
+  // }
+  // else if (btnName === "Moab") {
+  //   modalBio.text(regionBios[4])
+  // }
+  
+  // else if (btnName === "St. George") {
+  //   modalBio.text(regionBios[5])
+  // }
+
+  // else if (btnName === "Zion") {
+  //   modalBio.text(regionBios[6])
+  // }
+
+  // else {
+  //   modalBio.text(regionBios[7])
+  // }
+
+
+
+
+
+
+
 
 $(".modal-button").click(function () {
   $("html").addClass("is-clipped");
   $(".modal").addClass("is-active");
-  let btn = $(event.currentTarget)
-  let btnName = btn.attr("data-location")
-  console.log(btnName)
-  modalTitle.text(btnName)
-
-  if (btnName === "Logan"){
-    modalBio.text(regionBios[0])
-  }
-  else if (btnName === "Wasatch") {
-  modalBio.text(regionBios[1])
-  }
-  else if (btnName === "Uintas") {
-    modalBio.text(regionBios[2])
-  }
-  else if (btnName === "Joe's Valley") {
-    modalBio.text(regionBios[3])
-  }
-  else if (btnName === "Moab") {
-    modalBio.text(regionBios[4])
-  }
-  
-  else if (btnName === "St. George") {
-    modalBio.text(regionBios[5])
-  }
-
-  else if (btnName === "Zion") {
-    modalBio.text(regionBios[6])
-  }
-
-  else {
-    modalBio.text(regionBios[7])
-  }
-
-
-
-
-
 
 });
 

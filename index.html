@@ -35,12 +35,19 @@
                 }
             </style>
         </defs>
+
         <polygon class="cls-1 button is-primary modal-button" data-target="modal-button" id="poly1" data-location="logan" data-text="Assets"
             points="175 40 216 0 308 31 337 77 293 89 219 63 175 40" />
         <polygon class="cls-1 button is-primary modal-button" data-target="modal-button" id="poly2" data-location="wasatch"
+
+        <polygon class="cls-1 button is-primary modal-button" data-target="" id="poly1" data-location="logan"
+            data-text="Assets" points="175 40 216 0 308 31 337 77 293 89 219 63 175 40" />
+        <polygon class="cls-1 button is-primary modal-button" data-target="" id="poly2" data-location="wasatch"
+
             points="232 168 256 152 287.68 147 328 131 345 149.5 345 184 345 266 279 275 232 243 220 203 232 168" />
         <polygon class="cls-1 button is-primary modal-button" data-target="modal-button" id="poly3" data-location="unitas"
             points="383 198 429 155 517 185 552 243 488 243 423 229 383 198" />
+
         <polygon class="cls-1 button is-primary modal-button" data-target="modal-button" id="poly4"
             data-location="joesvalley"
             points="308 350 297 384 297 424 318 439 361 425 396 439 408 404 420 382 397 330 345 330 308 350" />
@@ -66,7 +73,7 @@
 
             <!-- h1 element for the region name -->
 
-            <h1 class="modal-card-title" id="region-name-h1"></h1>
+            <h1 class="modal-card-title has-text-centered" id="region-name-h1"></h1>
 
 
         </header>
@@ -81,38 +88,39 @@
 
                 <p id="region-bio-p"></p>
 
-                <h2>Current Conditions</h2>
+                <h2>Current Conditions:</h2>
 
                 <!-- current forecast html -->
 
                 <div class="current-forecast box">
-                 <div class="column is-mobile">
-                    
-                            <div class="column is-half date"></div>
-                            <figure class="image is-64x64">
-                                <img class="weather-icon">
+                    <div class="date is-size-4 has-text-centered has-text-weight-bold"></div>
+                    <p></p>
+                    <div class="columns is-mobile">
+
+                        <div class="column">
+                            <figure class="image is-128x128 box is-vcentered">
+                                <img class="weather-icon is-vcentered">
                             </figure>
-                            
-                    
-                    <div class="column is-multiline">
+                        </div>
+
+                        <div class="column">
                             <div id="current-weather"></div>
+                        </div>
                     </div>
-                 
-                       
+
+                </div>
 
                 
-                 </div>
-                </div>
-                
+
                 <!-- 5 day forecast html -->
 
-                <h3>5 Day Forecast</h3>
-                <div class="box">
+                <h3>5 Day Forecast:</h3>
+                <div class="box has-background-primary">
                     <div class="columns">
 
                         <!-- day 1 -->
 
-                        <div class="column has-background-primary has-text-black">
+                        <div class="column has-text-black">
                             <p class="day-one"></p>
                             <img class="weatherIcon" src="" alt="" id="day-1-icon">
                             <p class="temperature" id="day-1-temp"></p>
@@ -121,7 +129,7 @@
 
                         <!-- day 2 -->
 
-                        <div class="column has-background-primary has-text-black">
+                        <div class="column has-text-black">
                             <p class="day-two"></p>
                             <img class="weatherIcon" src="" alt="" id="day-2-icon">
                             <p class="temperature" id="day-2-temp"></p>
@@ -130,7 +138,7 @@
 
                         <!-- day 3 -->
 
-                        <div class="column has-background-primary has-text-black">
+                        <div class="column has-text-black">
                             <p class="day-three"></p>
                             <img class="weatherIcon" src="" alt="" id="day-3-icon">
                             <p class="temperature" id="day-3-temp"></p>
@@ -139,7 +147,7 @@
 
                         <!-- day 4 -->
 
-                        <div class="column has-background-primary has-text-black">
+                        <div class="column has-text-black">
                             <p class="day-four"></p>
                             <img class="weatherIcon" src="" alt="" id="day-4-icon">
                             <p class="temperature" id="day-4-temp"></p>
@@ -148,7 +156,7 @@
 
                         <!-- day 5 -->
 
-                        <div class="column has-background-primary has-text-black">
+                        <div class="column has-text-black">
                             <p class="day-five"></p>
                             <img class="weatherIcon" src="" alt="" id="day-5-icon">
                             <p class="temperature" id="day-5-temp"></p>
@@ -168,8 +176,7 @@
             
         
         <footer class="modal-card-foot"></footer>
-        
-        
+
     </div>
     <button class="modal-close is-large" aria-label="close"></button>
 </div>

@@ -1,6 +1,6 @@
 {
     "center": [-111.7326771, 40.6157054],
-    "zoom": 9.80,
+    "zoom": 9.30,
     "features": [
       {
         "type": "Feature",
@@ -56,7 +56,31 @@
           "description": "<a href=\"https://www.hikingproject.com/trail/7010500/bells-canyon-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>Bells Canyon Trail</strong></a><p>Difficulty: Difficult</p><p>One of the most popular Wasatch front trails. Bells canyon is a 4.8 mile hike to two beautiful reservoirs and a waterfall. </p>",
           "icon": "shoe"
         },
-        "geometry": { "type": "Point", "coordinates": [-111.8671189, 40.5717951] }
+        "geometry": { "type": "Point", "coordinates": [-111.796774, 40.5717951] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7023366/pfeifferhorn\" target=\"_blank\" title=\"Opens in a new window\"><strong>Pfeifferhorn</strong></a><p>Difficulty: Difficult</p><p> A difficult out and back to one, with over 3.5k ft elevation gain, to one the highest peaks on the Wasatch Front.</p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.681251, 40.575376] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7027699/jacobs-ladder-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>Jacob's Ladder Trail</strong></a><p>Difficulty: Difficult</p><p> Lone Peak is one of the tallest and most prominent mountains around Salt Lake. This is the mountain that separates the Salt Lake and Utah valleys. The Jacob's Ladder Trail is arguably the most popular route to the summit, offering you incredible views along the way to the summit, not to mention spectacular panoramas from up top.</p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.816169, 40.4941015] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/105739407/the-dead-snag\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Dead Snag Climbing Area</strong></a><p>Difficulty: Various</p><p> Popular Trad climbing area in Big Cottonwood Canyon, featuring routes from 5.6 - 5.11 </p>",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.7468099, 40.6210945] }
       }
     ]
   }

@@ -1,6 +1,6 @@
 {
     "center": [-113.043036, 37.246740],
-    "zoom": 9.80,
+    "zoom": 9.20,
     "features": [
       {
         "type": "Feature",
@@ -32,12 +32,12 @@
           "description": "<a href=\"https://www.hikingproject.com/gem/56/the-narrows\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Narrows</strong></a><p>Difficulty: Novice</p><p>The Narrows is the most famous and trafficked trail in Zion. Not for the faint of heart, the trail does require hikers to enter the Virgin River itself and hike up stream. It is recommended that rent gear from a local Outfitter for this hike </p>",
           "icon": "shoe"
         },
-        "geometry": { "type": "Point", "coordinates": [-112.9637062, 37.2967228] }
+        "geometry": { "type": "Point", "coordinates": [-112.9549084, 37.2967067] }
       },
       {
         "type": "Feature",
         "properties": {
-          "description": "<a href=\"https://www.hikingproject.com/trail/7001606/west-rim-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>The West Rim Trail</strong></a><p>An amazing 13 mile backpacking trail that begins in the high alpine and traverses back into Zion canyon. </p>",
+          "description": "<a href=\"https://www.hikingproject.com/trail/7001606/west-rim-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>The West Rim Trail</strong></a><p>Difficulty: Intermediate</p><p>An amazing 13 mile backpacking trail that begins in the high alpine and traverses back into Zion canyon. </p>",
           "icon": "shoe"
         },
         "geometry": { "type": "Point", "coordinates": [-112.9957071, 37.3200179] }
@@ -48,15 +48,47 @@
           "description": "<a href=\"https://www.tripadvisor.com/Tourism-g61001-Springdale_Utah-Vacations.html\" target=\"_blank\" title=\"Opens in a new window\"><strong>Springdale</strong></a><p>The gateway community to Zion National Park, Springdale is the first stop for all of your adventure needs. Lodging, Outfitters, and a wealth of Restaurants can be find in this small desert town.</p>",
           "icon": "lodging"
         },
-        "geometry": { "type": "Point", "coordinates": [-109.568971, 38.5743966] }
+        "geometry": { "type": "Point", "coordinates": [-113.0241361, 37.1807778] }
       },
       {
         "type": "Feature",
         "properties": {
-          "description": "<a href=\"https://www.hikingproject.com/directory/8013268/the-needles\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Needles</strong></a><p>The Needles is an off the beaten path section of Canyonlands National Park that offers some of the best day hiking and backpacking opportunities in the Moab area. </p>",
+          "description": "<a href=\"https://www.hikingproject.com/trail/7001622/emerald-pools\" target=\"_blank\" title=\"Opens in a new window\"><strong>Emerald Pools</strong></a><p>This is a short and potentially quick out-and-back hike, depending on how long you decide to stop at each pool. Given the high volume of visitors that flock to this attraction, the trail has been brandished with guardrails and barriers to keep both people and the natural environment safe. </p>",
           "icon": "shoe"
         },
-        "geometry": { "type": "Point", "coordinates": [-112.9986, 37.1889] }
+        "geometry": { "type": "Point", "coordinates": [-112.958539, 37.2510232] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/7008984/the-whole-guacamole\" target=\"_blank\" title=\"Opens in a new window\"><strong>The Whole Guacamole</strong></a><p>Difficulty: Difficult</p><p>The Whole Guacamole trail is a lot of fun to ride with some singletrack thrown in and lots of slick rock type riding and technical features. Trail finding can be challenging in a few areas so watch for small rock cairns.</p>",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.184512, 37.2262159] }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/112565220/lambs-knoll\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Lamb's Knoll</strong></a><p>Rating: Various</p> A popular sport climbing area found on the border of Zion National Park. There are several popular climbs in this area, as well as various canyoneering routes.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.1186998, 37.3047198] }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7001585/canyon-overlook-trail\" target=\"_blank\" title=\"Opens in a new window\"><strong>Canyon Overlook</strong></a><p>Difficulty: Novice</p><p>This short trail originates at a parking lot on the east side of the highway 9 (Zion Park Blvd.) tunnel. The trail traverses out to the rim above a steep canyon wall. Views to the west are breathtaking from the overlook.</p>",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-112.940456, 37.213623] }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/route/105717892/namaste\" target=\"_blank\" title=\"Opens in a new window\"><strong>Namaste</strong></a><p>Difficulty: 5.11d</p><p>Popular area for climbing photography. The Namaste Wall is a sheer cliff of beautiful hueco's with good holds.</p>",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.1558752, 37.4226324] }
       }
     ]
   }

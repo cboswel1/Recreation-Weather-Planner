@@ -1,6 +1,6 @@
 {
-    "center": [-111.2957427, 40.6423252],
-    "zoom": 8.00,
+    "center": [-110.901532, 40.641727],
+    "zoom": 8.70,
     "features": [
       {
         "type": "Feature",
@@ -9,8 +9,47 @@
           "icon": "shoe"
         },
         "geometry": { "type": "Point", "coordinates": [-110.825606, 40.5607197] }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7020080/ibantik-lake\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Ibantik Lake</strong></a><p>Rating: Intermediate</p> A nice day hike on a well defined trail through to several Alpine Lakes. </p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.0328418, 40.6816835] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7021541/ostler-lake\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Ostler Lake</strong></a><p>Rating: Intermediate</p>  This is one of the classic backpacking destinations in the High Uintas Wilderness, and makes a great out and back hike.</p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-110.801172, 40.8222506] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7033148/bald-mountain-trail\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Bald Mountain Trail</strong></a><p>Rating: Intermediate</p>  Bald Mountain is a prominent peak overlooking Bald Mountain Pass, Moosehorn Lake, and Mirror Lake in Wasatch National Forest. This hike in particular makes a steep, rocky, and exposed bid for the summit along the well-marked Bald Mountain Trail and ends with a spectacular view of the surrounding area.</p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-110.9738577, 40.6891792] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/route/105741140/black-elk\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Black Elk</strong></a><p>Rating: 5.10a</p>  Black Elk is a good enough reason to drive all the way down the Mirror Lake Hwy and take the 20 min hike to the Ruth Lake Crag. It has an interesting, balancy beginning, followed by a bouldery crux, onto an exposed face. The rock has good friction, the holds are positive, and the pro is place a safe, sane distance.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-110.9039602, 40.7331366] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/route/117521572/up-the-irons\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Up the Irons</strong></a><p>Rating: 5.11c</p>  The most popular rated Trad climb on the Iron Hayden Wall.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-110.8525367, 40.7346841] }
       }
-    
     ]
   }
   

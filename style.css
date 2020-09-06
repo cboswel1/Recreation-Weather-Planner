@@ -66,8 +66,11 @@ html {
 
 #map { 
     position: absolute; 
-    height: 500px;
-    width: 640px; 
+    height: 520px;
+    width: 550px;
+    border: solid;
+    border-width: thin;
+    
 }
 
 .mapboxgl-popup {
@@ -176,7 +179,7 @@ h1 {
 }
 
 .rec-title {
-    text-decoration: underline;
+    text-align: center;
 }
 
 

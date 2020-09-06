@@ -251,6 +251,8 @@ function generateMap(data) {
       map.getCanvas().style.cursor = "";
     });
   });
+  // disable map zoom when using scroll
+  map.scrollZoom.disable();
 }
 
 $(".modal-close").click(function () {

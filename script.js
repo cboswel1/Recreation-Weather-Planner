@@ -112,15 +112,18 @@ $(".modal-button").click(function () {
     function cardFun(addNumber, apiList, currentDay) {
       //Day +1 into the future
       var dayDate = moment().add(addNumber, "day").format("dddd");
-      var dateDay = $("<p>").text(dayDate);
+      var dateDay = $(".day-" + currentDay + "-date").text(dayDate);
+
+      //5 Day Weather Icons
+      var dayFiveIcons = response.list[apiList].weather[0].icon;
+            var weatherIcon = "https://openweathermap.org/img/wn/" + dayFiveIcons + ".png"
+            var oneIcon = $(".day-" + currentDay + "-icon").attr('src', weatherIcon);
 
       //setting temp and hum
       var DayTemp = $("<p>").text(
-        "Temperature: " + response.list[apiList].main.temp + " F"
+        "High: " + response.list[apiList].main.temp + " F"
       );
-      var DayHum = $("<p>").text(
-        "Humidity " + response.list[apiList].main.humidity + "%"
-      );
+      
 
       //var to append
       var fiveDay = $(".day-" + currentDay);
@@ -128,7 +131,7 @@ $(".modal-button").click(function () {
       fiveDay.empty();
 
       // append
-      fiveDay.append(dateDay, DayTemp, DayHum);
+      fiveDay.append(DayTemp);
     }
     //day one
     cardFun(1, 0, "one");

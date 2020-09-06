@@ -150,7 +150,10 @@ h1 {
 
     }
 
-  
+.icon {
+    max-width: 25%;
+    height: auto;
+}
 
 
 

@@ -10,16 +10,31 @@ let regionBios = [
   " Cedar Mesa Cedar Mesa Cedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar MesaCedar Mesa Cedar Mesa",
 ];
 
-let regionTitles = ["Logan", "Wasatch", "Uintas", "Joe's Valley", "Moab", "St. George", "Zion", "Cedar Mesa" ]
+let regionTitles = [
+  "Logan",
+  "Wasatch",
+  "Uintas",
+  "Joe's Valley",
+  "Moab",
+  "St. George",
+  "Zion",
+  "Cedar Mesa",
+];
 
 //modal button and events
 $(".modal-button").click(function () {
   $(".modal").addClass("is-active");
 
-
-
   let modalTitle = $("#region-name-h1");
   let modalBio = $("#region-bio-p");
+  var uintasBg = "/assets/IMG_2183.jpg";
+  var moabBg = "/assets/delicate-arch.jpg";
+  var loganBg = "/assets/logan.jpg";
+  var wasatchBg = "/assets/wasatch.jpg";
+  var zionBg = "/assets/zion.jpg";
+  var joesBg = "/assets/joesvalley.jpg";
+  var stgeorgeBg = "/assets/stgeorge.jpg";
+  var cedarBg = "/assets/cedarmesa.jpg";
 
   let btn = $(event.currentTarget);
   let btnName = btn.attr("data-location");
@@ -27,37 +42,45 @@ $(".modal-button").click(function () {
   modalTitle.text(btnName);
 
   if (btnName === "logan") {
-    modalTitle.text(regionTitles[0])
+    modalTitle.text(regionTitles[0]);
     modalBio.text(regionBios[0]);
     var citySearch = "5777544";
+    $(".current-forecast").css("background-image", "url(" + loganBg + ")");
   } else if (btnName === "wasatch") {
-    modalTitle.text(regionTitles[1])
+    modalTitle.text(regionTitles[1]);
     modalBio.text(regionBios[1]);
     citySearch = "4846729";
+    $(".current-forecast").css("background-image", "url(" + wasatchBg + ")");
   } else if (btnName === "unitas") {
-    modalTitle.text(regionTitles[2])
+    modalTitle.text(regionTitles[2]);
     modalBio.text(regionBios[2]);
     citySearch = "5776692";
+    $(".current-forecast").css("background-image", "url(" + uintasBg + ")");
   } else if (btnName === "joesvalley") {
-    modalTitle.text(regionTitles[3])
+    modalTitle.text(regionTitles[3]);
     modalBio.text(regionBios[3]);
     citySearch = "5544402";
+    $(".current-forecast").css("background-image", "url(" + joesBg + ")");
   } else if (btnName === "moab") {
-    modalTitle.text(regionTitles[4])
+    modalTitle.text(regionTitles[4]);
     modalBio.text(regionBios[4]);
     citySearch = "5543307";
+    $(".current-forecast").css("background-image", "url(" + moabBg + ")");
   } else if (btnName === "stgeorge") {
-    modalTitle.text(regionTitles[5])
+    modalTitle.text(regionTitles[5]);
     modalBio.text(regionBios[5]);
     citySearch = "5546220";
+    $(".current-forecast").css("background-image", "url(" + stgeorgeBg + ")");
   } else if (btnName === "zion") {
-    modalTitle.text(regionTitles[6])
+    modalTitle.text(regionTitles[6]);
     modalBio.text(regionBios[6]);
     citySearch = "5549225";
+    $(".current-forecast").css("background-image", "url(" + zionBg + ")");
   } else {
-    modalTitle.text(regionTitles[7])
+    modalTitle.text(regionTitles[7]);
     modalBio.text(regionBios[7]);
     citySearch = "5535484";
+    $(".current-forecast").css("background-image", "url(" + cedarBg + ")");
   }
 
   var fiveDayW =
@@ -94,15 +117,15 @@ $(".modal-button").click(function () {
     cWeather.empty();
 
     var currentTemp = $("<p>").text(
-      "Current Temperature: " + response.main.temp + " °F"
+      "Temperature: " + response.main.temp + " °F"
     );
-    var currentHum = $("<p>").text(
-      "Current Humidity: " + response.main.humidity + "%"
-    );
-    var windSpeed = $("<p>").text("Wind Speed: " + response.wind.speed + "mph");
+    var currentHum = $("<p>").text("Humidity: " + response.main.humidity + "%");
+    var windSpeed = $("<p>").text("Wind: " + response.wind.speed + "mph");
 
     cWeather.append(currentTemp, currentHum, windSpeed);
   });
+
+
 
   //5 day forecast call
   $.ajax({
@@ -116,14 +139,14 @@ $(".modal-button").click(function () {
 
       //5 Day Weather Icons
       var dayFiveIcons = response.list[apiList].weather[0].icon;
-            var weatherIcon = "https://openweathermap.org/img/wn/" + dayFiveIcons + ".png"
-            var oneIcon = $(".day-" + currentDay + "-icon").attr('src', weatherIcon);
+      var weatherIcon =
+        "https://openweathermap.org/img/wn/" + dayFiveIcons + ".png";
+      var oneIcon = $(".day-" + currentDay + "-icon").attr("src", weatherIcon);
 
       //setting temp and hum
       var DayTemp = $("<p>").text(
         "High: " + response.list[apiList].main.temp + " F"
       );
-      
 
       //var to append
       var fiveDay = $(".day-" + currentDay);
@@ -148,25 +171,21 @@ $(".modal-button").click(function () {
     //day five
     cardFun(5, 32, "five");
   });
-
-  
-
-  //fetch map to display on click
-  
 });
 
+
+//fetch map on button click
 function fetchMapData(map) {
   $.getJSON(`../../data/${map}.json`, generateMap);
 }
 
 $(".modal-button").click(function () {
   $(".modal").addClass("is-active");
-  console.log('clicked');
+  console.log("clicked");
 
-  const location = $(this).data('location');
+  const location = $(this).data("location");
 
   fetchMapData(location);
-
 });
 
 //function to generate map
@@ -178,13 +197,10 @@ function generateMap(data) {
     container: "map",
     style: "mapbox://styles/mapbox/streets-v11",
 
-  
-
     //Sets Lat and Long for
     center: data.center,
     zoom: data.zoom,
   });
-
 
   map.on("load", function () {
     map.addSource("places", {

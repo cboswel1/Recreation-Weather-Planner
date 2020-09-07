@@ -1,5 +1,5 @@
 {
-    "center": [-113.6335372, 37.1048133],
+    "center": [-113.514104, 37.095556],
     "zoom": 10.00,
     "features": [
       {
@@ -9,8 +9,63 @@
           "icon": "bicycle"
         },
         "geometry": { "type": "Point", "coordinates": [-113.631098, 37.089971] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/4292802/bearclaw-poppy-and-snake-pit-loop\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Bearclaw Poppy</strong></a><p>Rating: Intermediate</p> This is one of the the only true beginner trail in Saint George, but a trail that's fun for riders of every skill level. It's a smooth roller coaster and a blast for everyone.</p> ",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.623346, 37.052248] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/3632371/church-rocks\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Church Rocks</strong></a><p>Rating: Intermediate</p> Church Rocks is a stand alone trail, but also part of the Prospector and Dino Cliffs trail network. It's mostly slick rock and so there are many ways to ride this trail. It's not always clearly marked, but if you take a different rout it's still fun.</p> ",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.465072, 37.147862] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mtbproject.com/trail/7033208/barrel-trail\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Barrel Trail</strong></a><p>Rating: Difficult</p> For those who enjoy some air time, this trail delivers. Features such as the 'Waterfall', rock rollers, and carefully-built jumps and tables provide challenges that some riders will want to session again and again to master.</p> ",
+          "icon": "bicycle"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.662135, 37.090336] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/106028834/moes-valley\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Moe's Valley Bouldering</strong></a><p>Rating: Various</p> A massive Bouldering area with over 250 routes. A perfect winter get away for climbers when Northern Utah is covered in snow.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.6290823, 37.0711892] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/105717247/black-rocks\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Black Rock's Climbing Area</strong></a><p>Rating: Various</p> A fun cragging area with sport routes ranging from 5.8 to 5.13. The rock is mainly basalt, which makes for interesting climbing.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.6171213, 37.1551147] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/105787606/green-valley-gap\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Green Valley Gap Climbing Area</strong></a><p>Rating: Various</p> A great beginner intro to sandstone climbing. Single pitch sport route line this small canyon system.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.6450673, 37.0883733] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7049709/quail-creek\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Quail Creek Trail</strong></a><p>Rating: Intermediate</p>Hard packed sand is great for hiking during or after a rain storm. It will take you through some of the most beautiful scenery like the rest of the trails in the Red Cliffs Desert Reserve area. </p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-113.403601, 37.222543] }
       }
-    
     ]
   }
   

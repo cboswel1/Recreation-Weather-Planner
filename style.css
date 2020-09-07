@@ -1,8 +1,29 @@
+
+html {
+    height: 170%;
+    width: 100%;
+    background: url(assets/backgroundmtns2.png) no-repeat;
+    background-size: cover;
+    overflow: auto;
+    background-color: transparent;
+}
+
+
 body {
-    background-color: #ADB5BD;
+    background-color: transparent;
     margin: 0;
     padding: 0;
     font-family: 'Vollkorn', serif;
+    background-size: contain;
+}
+
+.paragraph {
+    background-color: transparent;
+    color: #FFE0AD;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding: 2%;
+    font-size: 20px;
 }
 
 @viewport {
@@ -10,9 +31,6 @@ body {
     zoom: 1.0;
 }
 
-html {
-    background-color: transparent;
-}
 
 
 .container {
@@ -33,19 +51,31 @@ html {
 
 @media only screen and (max-width: 3408px) {
     img {
-        height: 100%;
-        width: 40%;
+        height: 105%;
+        width: 42%;
     }
     svg {
-        height: 2%;
+        height: 3%;
         width: 40%;
     }
 }
 
+@media only screen and (max-width: 1084px) {
+    img {
+        height: 105%;
+        width: 63%;
+    }
+    svg {
+        height: 10%;
+        width: 60%;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
     img {
-        height: 100%;
-        width: 80%;
+        height: 105%;
+        width: 83%;
     }
     svg {
         height: 20%;
@@ -57,11 +87,19 @@ html {
     height: 50%;
     border: 0% 0%;
     padding: 0%;
-    font-size: 24px;
+    font-size: 46px;
     text-align: center;
-    color: #B54D03;
+    color: #FFE0AD;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #FFE0AD;
+    background-color: transparent;
+}
+
+.header2 {
+    font-size: 20px;
+    text-align: center;
+    color: #FFE0AD;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: transparent;
 }
 
 #map { 

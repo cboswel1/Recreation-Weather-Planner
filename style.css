@@ -239,3 +239,8 @@ h1 {
 .flash-flood {
     font-size: 12px;
 }
+
+.city-header {
+    background: rgb(76,173,209);
+    background: linear-gradient(171deg, rgba(76,173,209,1) 16%, rgba(178,219,235,1) 61%, rgba(254,254,254,1) 100%);
+}

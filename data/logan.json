@@ -8,7 +8,15 @@
         "description": "<a href=\"https://www.mtbproject.com/trail/7000659/providence-canyon\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Providence Canyon</strong></a><p>Rating: Difficult</p> A steep, rocky climb with a a fast, burmed descent </p> ",
         "icon": "bicycle"
       },
-      "geometry": { "type": "Point", "coordinates": [-109.232048, 38.4868328] }
+      "geometry": { "type": "Point", "coordinates": [-111.8598168, 41.6915216] }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "description": "<a href=\"https://www.hikingproject.com/trail/7012421/naomi-peak-national-recreation-trail\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Naomi Peak</strong></a><p>Rating: Difficult</p> This is an amazing tour with almost everything that the Bear River Range has to offer. It starts in one of the most beautiful canyons in the range, passes most of the high peaks, two of the gorgeous alpine lakes, and in early summer can have amazing wildflowers to see almost all the way along the route. </p> ",
+        "icon": "shoe"
+      },
+      "geometry": { "type": "Point", "coordinates": [-111.7790777, 41.974384] }
     }
   
   ]

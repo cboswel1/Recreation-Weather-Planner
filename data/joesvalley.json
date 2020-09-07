@@ -1,6 +1,6 @@
 {
     "center": [-111.1801348, 39.2898327],
-    "zoom": 11.00,
+    "zoom": 10.00,
     "features": [
       {
         "type": "Feature",
@@ -9,6 +9,22 @@
           "icon": "mountain"
         },
         "geometry": { "type": "Point", "coordinates": [-111.208981, 39.275335] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/area/105880388/new-joes\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>New Joe's Bouldering Area</strong></a><p>New Joe's is a hillside/canyon a few miles away from the Left and Right forks with a whole bunch of quality boulders. Area 51 is the most accessible and most popular area, but there is a lot more up there just a short walk away.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.1684594, 39.3168128] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/map/107649366/dairy-canyon\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Generally 10 degrees cooler than climbs in the valley of left fork with afternoon shade. Comes with a great view and great landings. Rock quality is impeccable.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-111.220968, 39.378265] }
       }
     
     ]

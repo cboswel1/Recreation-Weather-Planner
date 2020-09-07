@@ -116,7 +116,7 @@ body {
 
 #map { 
     position: relative; 
-    height: 520px;
+    height: 500px;
     width: 550px;
     border: solid;
     border-width: thin;
@@ -236,3 +236,6 @@ h1 {
     font-size: 13px;
 }
 
+.flash-flood {
+    font-size: 12px;
+}

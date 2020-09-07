@@ -178,7 +178,7 @@ $(".modal-button").click(function () {
 
 //fetch map on button click
 function fetchMapData(map) {
-  $.getJSON(`../../data/${map}.json`, generateMap);
+  $.getJSON(`data/${map}.json`, generateMap);
 }
 
 $(".modal-button").click(function () {

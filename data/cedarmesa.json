@@ -1,6 +1,6 @@
 {
     "center": [-110.0482188, 37.3640109],
-    "zoom": 8.00,
+    "zoom": 8.75,
     "features": [
       {
         "type": "Feature",
@@ -9,7 +9,62 @@
           "icon": "shoe"
         },
         "geometry": { "type": "Point", "coordinates": [-109.9292409, 37.1742442] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7021911/moon-house-ruins\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Moon House Ruins</strong></a><p>Difficulty: Intermediate</p><p> A great hike that has you scaling across a canyon to reach 1,000-year-old ruins. A permit is required from the Kane Gulch Ranger Station.</p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.799469, 37.417102] }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7030383/fish-and-owl-canyon-loop-route\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Fish and Owl Canyon Loop</strong></a><p>Difficulty: Difficulty</p><p> Great canyon backpacking with incredible scenery, lots of solitude, and interesting archeological sites.</p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.818154, 37.4741381] }
+      }, 
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7030643/the-narrows-of-grand-gulch\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>The Narrows of Grand Gulch</strong></a><p>Difficulty: Intermediate</p><p> This is one of only a few short routes that will let you experience the confines of Grand Gulch. You descend very quickly into the slickrock gorge of Collins Canyon via a well-defined trail passing towers, domes, hoodoos, and overhanging rims. </p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-110.174121, 37.437348] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7021924/house-on-fire-ruins\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>House on Fire Ruins</strong></a><p>Difficulty: Intermediate</p><p> This pleasant trail follows a creek bed to visit a modest set of Anasazi ruins. The ease of the trail and the relatively short distance to the 'House On Fire' make this one of the more accessible ruins in the area </p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.8022632, 37.5375013] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.hikingproject.com/trail/7030650/bullet-canyon-trail\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Bullet Canyon Trail</strong></a><p>Difficulty: Intermediate</p><p> Bullet Canyon is a major tributary to Grand Gulch. This popular trail takes you down steep slickrock descends that can be challenging even for experienced hikers.</p> ",
+          "icon": "shoe"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.949605, 37.430771] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.blm.gov/visit/kane-gulch-ranger-station\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Kane Gulch Ranger Station</strong></a><p> BLM Ranger station. A great resource for current trail conditions and permits.</p> ",
+          "icon": "ranger-station"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.8979917, 37.524435] }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "description": "<a href=\"https://www.mountainproject.com/map/105716760/valley-of-the-gods\" target=\"_blank\" title=\"Opens in a new window\"\"><strong>Valley of the Gods Climbing Area</strong></a><p>Difficulty: Various</p> This is a remote area of high adventure climbing. Mexican Hat is one of the easiest desert summits to reach, and the approach is casual. Valley of the Gods is notorious for loose scary climbing, and this beautiful area is pretty much deserted.</p> ",
+          "icon": "mountain"
+        },
+        "geometry": { "type": "Point", "coordinates": [-109.9629377, 37.1928107] }
       }
-    
     ]
   }

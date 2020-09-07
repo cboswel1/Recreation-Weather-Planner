@@ -27,19 +27,21 @@ $(".modal-button").click(function () {
 
   let modalTitle = $("#region-name-h1");
   let modalBio = $("#region-bio-p");
-  var uintasBg = "/Assets/IMG_2183.jpg";
-  var moabBg = "/Assets/delicate-arch.jpg";
-  var loganBg = "/Assets/logan.jpg";
-  var wasatchBg = "/Assets/wasatch.jpg";
-  var zionBg = "/Assets/zion.jpg";
-  var joesBg = "/Assets/joesvalley.jpg";
-  var stgeorgeBg = "/Assets/stgeorge.jpg";
-  var cedarBg = "/Assets/cedarmesa.jpg";
+  var uintasBg = "Assets/IMG_2183.jpg";
+  var moabBg = "Assets/delicate-arch.jpg";
+  var loganBg = "Assets/logan.jpg";
+  var wasatchBg = "Assets/wasatch.jpg";
+  var zionBg = "Assets/zion.jpg";
+  var joesBg = "Assets/joesvalley.jpg";
+  var stgeorgeBg = "Assets/stgeorge.jpg";
+  var cedarBg = "Assets/cedarmesa.jpg";
 
   let btn = $(event.currentTarget);
   let btnName = btn.attr("data-location");
   console.log(btnName);
   modalTitle.text(btnName);
+
+  
 
   if (btnName === "logan") {
     modalTitle.text(regionTitles[0]);

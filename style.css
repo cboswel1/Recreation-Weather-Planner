@@ -48,6 +48,7 @@ body {
     box-shadow: none;
 }
 
+/* Bulma Responsive Breakpoints for main image and map  */
 
 @media only screen and (max-width: 3408px) {
     img {
@@ -114,6 +115,7 @@ body {
     background-color: transparent;
 }
 
+/* Map size  */
 #map { 
     position: relative; 
     height: 500px;
@@ -134,7 +136,6 @@ body {
 h1 {
     margin: 0;
 }
-
 
 
 
@@ -204,6 +205,7 @@ h1 {
 
     }
 
+/* Weather Icon Adjustments  */
 .icon {
     max-width: 25%;
     height: auto;
@@ -240,6 +242,7 @@ h1 {
     font-size: 12px;
 }
 
+/* Modal Header Gradients  */
 .city-header {
     background: rgb(76,173,209);
     background: linear-gradient(171deg, rgba(76,173,209,1) 16%, rgba(178,219,235,1) 61%, rgba(254,254,254,1) 100%);

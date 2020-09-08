@@ -4,16 +4,17 @@ Snapshot is a recreation and weather planning app that focuses on 8 unique and p
 
 ## Built With 
 [Bulma](https://bulma.io/) 
+
 [jQuery](https://api.jquery.com/)
 
 
 ## Preview and Usage
 
-![Home Screen]()
+![Home Screen](https://github.com/cboswel1/Recreation-Weather-Planner/blob/master/Assets/HomescreenDemo.png?raw=true)
 
-![Modal Demo]() 
+![Modal Demo](https://github.com/cboswel1/Recreation-Weather-Planner/blob/master/Assets/ModalDemo1.png?raw=true) 
 
-![Modal Demo 2]()
+![Modal Demo 2](https://github.com/cboswel1/Recreation-Weather-Planner/blob/master/Assets/ModalDemo2.png?raw=true)
 
 ## How Does It Work? 
 
@@ -27,5 +28,7 @@ This application was authored by [Christian Boswell](https://github.com/cboswel1
 
 ## Acknowledgements 
 [Open Weather API](https://openweathermap.org/) 
+
 [Map Box API](https://www.mapbox.com/)
+
 [Google Fonts](https://fonts.google.com/)

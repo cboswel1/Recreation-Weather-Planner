@@ -5,28 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Recreation Weather Planner</title>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-
     <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
-
 </head>
 
-
+<!-- Main site header-->
 <div class="header1">
     <h1>SNAPSHOT</h1>
 </div>
 
+<!-- Subtitle-->
 <div class="header2">
     <h3>A glimpse at Utah's weather across its most famous recreation destinations</h3>
 </div>
 
 
-
+<!-- Begin Interactive Map -->
 <div class="container">
     <!--    <div class="box"> -->
     <img src="Assets/newmap12.png" alt="Utah" usemap="#utahMap" style="position:absolute; align-content: center;">
@@ -62,7 +60,7 @@
     <!-- </div> -->
 </div>
 
-
+<!-- Secondary subtitle-->
 <div class="paragraph">
 
     This weather planning app allows you to see each area's current and future weather forecasts -  ensuring you won't show up to bike, climb, or hike when the weather and trail conditions aren't ideal. Click any of the eight areas highlighted above to see the most up-to-date information!
@@ -86,8 +84,7 @@
             <div class="content">
                 <!-- text are for the region bio -->
 
-                <h1 class="modal-card-title " id="region-name-h1"></h1>
-                </header>
+        
 
 
                 <p id="region-bio-p"></p>
@@ -98,34 +95,24 @@
 
                 <div class="current-forecast box">
                  <div class="column">
-                    
-                            <div class="column is-half date weather-text"></div>
-                            <figure class="image is-64x64">
-                                <img class="weather-icon is-64x64">
-                            </figure>
-                            
-                    
+                    <div class="column is-half date weather-text"></div>
+                        <figure class="image is-64x64">
+                            <img src class="weather-icon is-64x64" alt="current weather">
+                        </figure>
                     <div class="column is-multiline">
-                            <div id="current-weather"></div>
+                        <div id="current-weather"></div>
                             <p class="pt-6">* This is a regional approximation. </p>
                             <p class= "flash-flood"><a href="https://www.weather.gov/slc/flashflood" target="_blank">* NOAA Flash Flood Potential Ratings</a> Do not enter Slot Canyons if there is a risk of flooding. </p>
                     </div>
-                 
-                       
-
-                
                  </div>
                 </div>
+
                 
                 <!-- 5 day forecast html -->
                 <header class="modal-card-head headerbg has-text-centered">
-
-                    
-        
                     <h3>Extended Forecast:</h3>
-        
-        
                 </header>
+                
                 
                 <div class="box">
                     <div class="columns">
@@ -134,7 +121,7 @@
 
                         <div class="column has-text-black">
                             <div class="day-one-date"></div>
-                            <img class="day-one-icon icon" alt="">
+                            <img src class="day-one-icon icon" alt="future weather">
                             <p class="day-one five-day-text"></p>
                             
                         </div>
@@ -143,7 +130,7 @@
 
                         <div class="column has-text-black">
                             <div class="day-two-date"></div>
-                            <img class="day-two-icon icon" alt="">
+                            <img src class="day-two-icon icon" alt="future weather">
                             <p class="day-two five-day-text"></p>
                             
                         </div>
@@ -152,7 +139,7 @@
 
                         <div class="column has-text-black">
                             <div class="day-three-date"></div>
-                            <img class="day-three-icon icon" alt="">
+                            <img src class="day-three-icon icon" alt="future weather">
                             <p class="day-three five-day-text"></p>
                             
                         </div>
@@ -161,7 +148,7 @@
 
                         <div class="column has-text-black">
                             <div class="day-four-date"></div>
-                            <img class="day-four-icon icon" alt="">
+                            <img src class="day-four-icon icon" alt="future weather">
                             <p class="day-four five-day-text"></p>
                             
                         </div>
@@ -170,50 +157,36 @@
 
                         <div class="column has-text-black">
                             <div class="day-five-date"></div>
-                            <img class="day-five-icon icon" alt="">
+                            <img src class="day-five-icon icon" alt="future weather">
                             <p class="day-five five-day-text"></p>
                             
                         </div>
                     </div>
-                    
                 </div>
                 
                 <div class= "pt-5 rec-title">
-
-                    
-        
                     <h3>Top Rated Recreational Opportunities in the Area:</h3>
                     <h5><a href="https://rockandice.com/how-to-climb/climbing-grades-explained/" target="_blank">Understanding Climbing Route Ratings and Grades</a></h5>
                     <h5 class="mb-2"><a href="https://www.imba.com/sites/default/files/content/resources/2018-10/IMBATrailDifficultRatingSystem.jpg" target="_blank">A Guide to Mountain Bike Trail Ratings</a></h5>
-        
                 </div>
+
+                <!-- Map Container-->
                 <div class="column is-mobile">
                 <div class="container">
                     <div class = "mb-6" id="map"></div>
                 </div>
                 </div>
             </div>
-            
-
         </section>
         
-            
-        
-        <footer class="modal-card-foot"></footer>
-        
-        
+        <!-- Footer -->
+        <footer class="modal-card-foot"></footer> 
     </div>
     <button class="modal-close is-large" aria-label="close"></button>
 </div>
 
-
-
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 <script src="./script.js"></script>
-
-
-
 
 </body>

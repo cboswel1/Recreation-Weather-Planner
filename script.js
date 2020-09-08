@@ -10,6 +10,7 @@ let regionBios = [
   " Another quintessential Utah desert experience can be found on the Cedar Mesa plateau. The area is probably most famous for the Anasazi ruins that dot the area and the number of hikes that take you to them. The most famous of those being the Mesa Verde Ruins. The area also has a variety of mountain biking around the town of Monticello. The Cedar Mesa is definitely a unique area of Utah to explore solo or with your family.",
 ];
 
+// Titles will appear in unique modals
 let regionTitles = [
   "Logan",
   "Wasatch",
@@ -41,8 +42,7 @@ $(".modal-button").click(function () {
   console.log(btnName);
   modalTitle.text(btnName);
 
-  
-
+  //conditional to append unique information to each area of map
   if (btnName === "logan") {
     modalTitle.text(regionTitles[0]);
     modalBio.text(regionBios[0]);
@@ -85,6 +85,7 @@ $(".modal-button").click(function () {
     $(".current-forecast").css("background-image", "url(" + cedarBg + ")");
   }
 
+  // Five Day and Current Weather APIs
   var fiveDayW =
     "https://api.openweathermap.org/data/2.5/forecast?id=" +
     citySearch +
@@ -126,8 +127,6 @@ $(".modal-button").click(function () {
 
     cWeather.append(currentTemp, currentHum, windSpeed);
   });
-
-
 
   //5 day forecast call
   $.ajax({
@@ -175,12 +174,12 @@ $(".modal-button").click(function () {
   });
 });
 
-
 //fetch map on button click
 function fetchMapData(map) {
   $.getJSON(`data/${map}.json`, generateMap);
 }
 
+//modal click activation
 $(".modal-button").click(function () {
   $(".modal").addClass("is-active");
   console.log("clicked");
@@ -257,6 +256,7 @@ function generateMap(data) {
   map.scrollZoom.disable();
 }
 
+//close modal 
 $(".modal-close").click(function () {
   $(".modal").removeClass("is-active");
 });

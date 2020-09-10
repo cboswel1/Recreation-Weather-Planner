@@ -18,7 +18,7 @@ Snapshot is a recreation and weather planning app that focuses on 8 unique and p
 
 ## How Does It Work? 
 
-Click here for a [live demo]()
+Click here for a [live demo](https://youtu.be/SJBjITam_cc)
 
 ## Live Site 
 Link to live site [Recreation-Weather-Planner](https://cboswel1.github.io/Recreation-Weather-Planner/) 

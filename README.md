@@ -24,7 +24,7 @@ Click here for a [live demo](https://youtu.be/SJBjITam_cc)
 Link to live site [Recreation-Weather-Planner](https://cboswel1.github.io/Recreation-Weather-Planner/) 
 
 ## Authored By 
-This application was authored by [Christian Boswell](https://github.com/cboswel1), [Sydney Goodwill](https://github.com/SydneyGoodwill), [Niel Gerber](https://github.com/Nggerber)  
+This application was authored by [Christian Boswell](https://github.com/cboswel1), [Sydney Goodwill](https://github.com/SydneyGoodwill), [Neal Gerber](https://github.com/Nggerber)  
 
 ## Acknowledgements 
 [Open Weather API](https://openweathermap.org/) 
